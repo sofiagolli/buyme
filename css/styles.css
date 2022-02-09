@@ -91,3 +91,88 @@ footer{
     
 }
 
+@media (max-width: 576px){
+    .carouselEstilo{
+        display:none;
+    }
+
+    .botonBuscar{
+        display:none;
+    }
+
+    .logo{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30%;
+    }
+
+    .footerSmart{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        
+    }
+
+    .formularioSmart{
+        width: 95%;
+
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .botonBuscar {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30%;
+    }
+
+    .formularioSmart {
+        width: 95%;
+
+    }
+}
+
+.gradienteContacto{
+    background-color: #e96196;
+    background-image: linear-gradient(315deg, #e96196 0%, #ffffff 74%);
+
+
+
+}
+
+.gradienteNosotros{
+    background-color: #f6ecc4;
+    background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
+}
+
+.productos{
+    margin: 40px;
+}
+
+.borderBox{
+    box-shadow: 0px 0px 15px rgb(83, 48, 48);
+}
+
+.hoverMenu:hover{
+    background-color: rgb(252, 204, 212);
+    border-radius: 10%;
+    
+}
+
+.escala{
+transition: all 0.5s;
+animation-name: escala;
+animation-iteration-count: infinite;
+animation-duration: 0.5s;
+box-shadow: 0px 0px 15px rgb(36, 15, 19);
+}
+
+
+.escala:hover {
+    transform: scale(1.1);
+}
