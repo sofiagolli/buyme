@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.barraLogo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236, 131, 149);
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 131, 149);
+}
+
+.busqueda{
+    width: 70%;
+    padding-right: 30%;
+    margin: 0;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rojo{
+    background-color: red
+    ;
+}
+
+.botonBuscar{
+    background-color: #fff;
+    color:black;
+    
+}
+
+.logo{
+    margin-left: 280%;
+    border-radius: 10px;
+    height: 7vh;
+}
+
+.footerFooter{
+    background-color:gray;
+    color: black;
+    margin: 0px;
+    width: 100%;
+    margin-right: 0;
+}
+
+li{
+    list-style-type: none;
+    color: black;
+}
+
+a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    margin: 0;
+    width: 100%;
+}
+
+.formulario{
+    background-color: pink;
+    border-radius: 10px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    box-shadow: 0px 0px 15px rgb(83, 48, 48);
+
+}
+.itemFormulario{
+    margin-left: 40px;
+    
+}
+
