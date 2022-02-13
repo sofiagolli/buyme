@@ -31,7 +31,7 @@
 
 
     <!---MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
     <div class="container-fluid menu">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,11 +39,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link active" href="productos.html">Productos</a>
-        <a class="nav-link active" href="contacto.html">Contacto</a>
-        <a class="nav-link active" href="nosotros.html">Nosotros</a>
-        <a class="nav-link active" href="registrate.html">Registrate</a>
+        <a class="nav-link active hoverMenu" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link active hoverMenu" href="productos.html">Productos</a>
+        <a class="nav-link active hoverMenu" href="contacto.html">Contacto</a>
+        <a class="nav-link active hoverMenu" href="nosotros.html">Nosotros</a>
+        <a class="nav-link active hoverMenu" href="registrate.html">Registrate</a>
+        <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle categorias" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Hogar</a></li>
+        <li><a class="dropdown-item" href="#">Decoración</a></li>
+        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+        <li><a class="dropdown-item" href="#">Mascotas</a></li>
+        <li><a class="dropdown-item" href="#">Cocina</a></li>
+        
+        
+    </ul>
+    </li>
         </div>
     </div>
     </div>
@@ -55,21 +67,23 @@
     
     <main class="gradienteNosotros">
     
-        <h1 >NOSOTROS</h1>
+        
     
 
-    <div class="clearfix">
-    <img src="img/equipo.jpg" class="col-md-4 float-md-end mb-3 ms-md-3" alt="...">
+    <div class="clearfix container-fluid">
+        <h1 >NOSOTROS</h1>
+    <img  src="img/equipo.jpg" class="col-md-4 float-md-end mb-3 ms-md-3 img-fluid" alt="foto de equipo">
 
     <p>
-    A paragraph of placeholder text.ing quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+    Buy-me es un lugar especial para los amantes de las compras y el punto de partida de tu inspiración, con las últimas tendencias en productos distinguidos, para que vos que amás comprar, lo hagas de una manera distinta.
+
     </p>
 
     <p>
-    As you can see the paragraphs gne how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+    Pensamos cada detalle para que tu experiencia sea única, innovando y eligiendo siempre lo mejor para vos.
     </p>
 
-    <img src="img/trabajando.jpg" class="col-md-3 float-md-start mb-3 ms-md-3" alt="...">
+    <img  src="img/trabajando.jpg"  class="col-md-4 float-md-start mb-3 ms-md-3 img-fluid" alt="trabajando">
 </div>
 
     </main>
@@ -85,7 +99,8 @@
         <div class="col-4 offset-2">
         
         <div >
-        <img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        <a href="index.html"><img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        </a>
         </div>
         <div class="d-flex w-100 gap-2">
         </div>
@@ -95,21 +110,20 @@
         
     </div>
 
-    <div class="col-3">
+    <div class="col-3 footerSmart text-light">
         <h5>CONTACTANOS</h5>
         <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">buy-me@gmail.com</a></li>
-        
-        <li class="nav-item mb-2"><a href="#"  class="nav p-0" ><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg>@Buy-me</a></li>
-        <li class="nav-item mb-2 "><a href="#" class="nav p-0"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg> Buy Me</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">0123456789</a></li>
+        <li class="nav-item mb-2">buy-me@gmail.com</li>
+        <li class="nav-item mb-2">@Buy-me</li>
+        <li class="nav-item mb-2 ">Buy Me</li>
+        <li class="nav-item mb-2">0123456789</li>
         
         </ul>
     </div>
 
     <div class="col-2">
         
-        <ul class="nav flex-column">
+        <ul class="nav flex-column text-dark footerSmart">
         <li class="nav-item mb-2"><a href="index.html" class="nav p-0 ">INICIO</a></li>
         <li class="nav-item mb-2"><a href="productos.html" class="nav p-0 ">PRODUCTOS</a></li>
         <li class="nav-item mb-2"><a href="nosotros.html" class="nav p-0 ">NOSOTROS</a></li>
@@ -119,16 +133,15 @@
 
     </div>
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
+    <div class="d-flex justify-content-between py-4 my-4 border-top text-light">
     <p>&copy; 2021 Company, Inc. All rights reserved.</p>
     <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://twitter.com/?lang=es"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://es-la.facebook.com/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
     </ul>
     </div>
 </footer>
-
 
         
 

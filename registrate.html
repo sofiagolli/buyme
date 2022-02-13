@@ -34,7 +34,7 @@
 
 
     <!---MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
     <div class="container-fluid menu">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,11 +42,23 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link active" href="productos.html">Productos</a>
-        <a class="nav-link active" href="contacto.html">Contacto</a>
-        <a class="nav-link active" href="nosotros.html">Nosotros</a>
-        <a class="nav-link active" href="registrate.html">Registrate</a>
+        <a class="nav-link active hoverMenu" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link active hoverMenu" href="productos.html">Productos</a>
+        <a class="nav-link active hoverMenu" href="contacto.html">Contacto</a>
+        <a class="nav-link active hoverMenu" href="nosotros.html">Nosotros</a>
+        <a class="nav-link active hoverMenu" href="registrate.html">Registrate</a>
+        <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle categorias" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Hogar</a></li>
+        <li><a class="dropdown-item" href="#">Decoración</a></li>
+        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+        <li><a class="dropdown-item" href="#">Mascotas</a></li>
+        <li><a class="dropdown-item" href="#">Cocina</a></li>
+        
+        
+    </ul>
+    </li>
         </div>
     </div>
     </div>
@@ -59,32 +71,32 @@
     <main>
 
         
-        <div class="container-fluid  col-5 formulario p-5 formularioSmart">
-            <div class="itemFormulario p-2">
-            <h3>Registrate</h3>
+        <div class="container-fluid  col-11 formulario p-5 mt-2 mb-2 formularioSmart">
+            <div class="itemFormulario">
+            <h3 class="registrate">Registrate</h3>
             </div>
-        <div class="form-floating mb-3 col-9 itemFormulario" >
+        <div class="form-floating mb-3  col-11 itemFormulario" >
     <input type="text" class="form-control " id="floatingInput">
     <label for="floatingInput">Nombre</label>
         </div>
-        <div class="form-floating mb-3 col-9 itemFormulario">
+        <div class="form-floating mb-3 col-11 itemFormulario">
     <input type="text" class="form-control" id="floatingPassword">
     <label for="floatingPassword">Apellido</label>
         </div>
 
-        <div class="form-floating mb-3 col-9 itemFormulario">
+        <div class="form-floating mb-3 col-11 itemFormulario">
     <input type="text" class="form-control" id="floatingInput" >
     <label for="floatingInput">Dirección</label>
         </div>
-        <div class="form-floating mb-3 col-9 itemFormulario">
+        <div class="form-floating mb-3 col-11 itemFormulario">
     <input type="text" class="form-control" id="floatingPassword">
     <label for="floatingPassword">Teléfono</label>
         </div>
-        <div class="form-floating mb-3 col-9 itemFormulario">
+        <div class="form-floating mb-3 col-11 itemFormulario">
     <input type="email" class="form-control" id="floatingInput">
     <label for="floatingInput">Email</label>
         </div>
-        <div class="form-floating mb-3 col-9 itemFormulario">
+        <div class="form-floating mb-3 col-11 itemFormulario">
     <input type="password" class="form-control" id="floatingPassword" >
     <label for="floatingPassword">Contraseña</label>
         </div>
@@ -113,7 +125,8 @@
         <div class="col-4 offset-2">
         
         <div >
-        <img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        <a href="index.html"><img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        </a>
         </div>
         <div class="d-flex w-100 gap-2">
         </div>
@@ -123,21 +136,19 @@
         
     </div>
 
-    <div class="col-3">
+    <div class="col-3 footerSmart text-light">
         <h5>CONTACTANOS</h5>
         <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">buy-me@gmail.com</a></li>
-        
-        <li class="nav-item mb-2"><a href="#"  class="nav p-0" ><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg>@Buy-me</a></li>
-        <li class="nav-item mb-2 "><a href="#" class="nav p-0"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg> Buy Me</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">0123456789</a></li>
-        
+        <li class="nav-item mb-2">buy-me@gmail.com</li>
+        <li class="nav-item mb-2">@Buy-me</li>
+        <li class="nav-item mb-2 ">Buy Me</li>
+        <li class="nav-item mb-2">0123456789</li>
         </ul>
     </div>
 
     <div class="col-2">
         
-        <ul class="nav flex-column">
+        <ul class="nav flex-column text-dark footerSmart">
         <li class="nav-item mb-2"><a href="index.html" class="nav p-0 ">INICIO</a></li>
         <li class="nav-item mb-2"><a href="productos.html" class="nav p-0 ">PRODUCTOS</a></li>
         <li class="nav-item mb-2"><a href="nosotros.html" class="nav p-0 ">NOSOTROS</a></li>
@@ -147,12 +158,12 @@
 
     </div>
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
+    <div class="d-flex justify-content-between py-4 my-4 border-top text-light">
     <p>&copy; 2021 Company, Inc. All rights reserved.</p>
     <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://twitter.com/?lang=es"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://es-la.facebook.com/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
     </ul>
     </div>
 </footer>

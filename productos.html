@@ -32,7 +32,7 @@
 
 
     <!---MENU-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
     <div class="container-fluid menu">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,145 +40,209 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-        <a class="nav-link active" href="productos.html">Productos</a>
-        <a class="nav-link active" href="contacto.html">Contacto</a>
-        <a class="nav-link active" href="nosotros.html">Nosotros</a>
-        <a class="nav-link active" href="registrate.html">Registrate</a>
+    
+        <a class="nav-link active hoverMenu" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link active hoverMenu" href="productos.html">Productos</a>
+        <a class="nav-link active hoverMenu" href="contacto.html">Contacto</a>
+        <a class="nav-link active hoverMenu" href="nosotros.html">Nosotros</a>
+        <a class="nav-link active hoverMenu" href="registrate.html">Registrate</a>
+        <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle categorias" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Hogar</a></li>
+        <li><a class="dropdown-item" href="#">Decoración</a></li>
+        <li><a class="dropdown-item" href="#">Accesorios</a></li>
+        <li><a class="dropdown-item" href="#">Mascotas</a></li>
+        <li><a class="dropdown-item" href="#">Cocina</a></li>
+        
+    </ul>
+    </li>
+
         </div>
     </div>
     </div>
+
 </nav>
+
 </header>
 
     
+    <main class="mainProductos">
+        <!----Intento categorías-->
     
-    <main>
+    
+        <!---fin intento categorias--> 
         
-    <!----INTENTO PRODUCTOS EN CAROUSEL (NO SALIO MUY BIEN)-->
-
-            
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner" style="width: 40rem;">
-    <div class="carousel-item active">
-        <div class="row row-cols-1 row-cols-md-3 g-4" >
-    <div class="col">
-    <div class="card  " style="width: 13rem;">
-        <img src="img/moldeflores.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a n to is a little bit longer.</p>
-        </div>
-
-    </div>
-    </div>
-    <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/images.png" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supportito additional content.</p>
-        </div>
-
-    </div>
-    </div>
-    <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/picaajo.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wishow that equal height action.</p>
-        </div>
-
-    </div>
-    </div>
-</div>
-    </div>
-    <div class="carousel-item">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-    <div class="card " style="width: 13rem;" >
-        <img src="img/cortaanana.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This ditional con a little bit longer.</p>
-        </div>
         
+    <div class="row row-cols-1 row-cols-md-5 g-4 productos ">
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/pelogato.jpg" class="card-img-top" alt="cepillo gato">
+        <div class="card-body">
+        <h5 class="card-title">Cepillo de gato</h5>
+        <p class="card-text">Cepillo ideal para gatos $599,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
     </div>
     </div>
     <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/espatulas.jpg" class="card-img-top" alt="...">
+    <div class="card  borderBox escala " style="width: 13rem;">
+        <img src="img/espatulas.jpg" class="card-img-top" alt="espatulas de colores">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting texadditional content.</p>
+        <h5 class="card-title">Espátulas colores</h5>
+        <p class="card-text">Espátulas colores de calidad $199,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
         </div>
-    
     </div>
     </div>
     <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/pishpishlimon.jpg" class="card-img-top" alt="...">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/vaquitadientes.jpg" class="card-img-top" alt="Vaquita dientes">
         <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a widinr cthat equal height action.</p>
-        </div>
-    
+        <h5 class="card-title">Vaquita dentífrico</h5>
+        <p class="card-text">Vaquita de San Anonio porta pasta $349,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
     </div>
     </div>
-</div>
     </div>
-    <div class="carousel-item">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/desgranachoclo.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is ain tThis content isa little bit longer.</p>
-        </div>
 
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/comidita.jpg" class="card-img-top" alt="Comidita juguetes">
+        <div class="card-body">
+        <h5 class="card-title">Comida para jugar</h5>
+        <p class="card-text">Comidita para jugar a cocinar $399,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
     </div>
     </div>
     <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/agarraderas.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supin to additional content.</p>
-        </div>
-        
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/cortaanana.jpg" class="card-img-top" alt="Corta anana">
+        <div class="card-body ">
+        <h5 class="card-title">Corta ananá</h5>
+        <p class="card-text">Corte de ananá perfecto $199,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
     </div>
     </div>
-    <div class="col">
-    <div class="card" style="width: 13rem;">
-        <img src="img/pinchosanimales.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is onahas evenrstequal height action.</p>
-        </div>
+    </div>
     
-    </div>
-    </div>
+    
 </div>
-    </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-    </button>
-</div>
-            
 
+
+    <div class="row row-cols-1 row-cols-md-5 g-4 productos ">
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/agarraderas.jpg" class="card-img-top" alt="Agarraderas">
+        <div class="card-body">
+        <h5 class="card-title">Agarraderas</h5>
+        <p class="card-text">Agarraderas, no mas quemaduras 149,99 $</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card  borderBox escala " style="width: 13rem;">
+        <img src="img/desgranachoclo.jpg" class="card-img-top" alt="desgranador">
+        <div class="card-body">
+        <h5 class="card-title">Desgranachoclo</h5>
+        <p class="card-text">Sacar granos de choclo fácil $299,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+        </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/esponjas.jpg" class="card-img-top" alt="Esponja make up">
+        <div class="card-body ">
+        <h5 class="card-title">Esponja maquillaje</h5>
+        <p class="card-text">Esponja aplicadora de maquillaje $99,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/gafas.jpg" class="card-img-top" alt="Gafas de sol">
+        <div class="card-body ">
+        <h5 class="card-title">Gafas de sol</h5>
+        <p class="card-text">Gafas de sol super cool 599,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/cepilloelectrico.jpg" class="card-img-top" alt="Cepillo electrico">
+        <div class="card-body ">
+        <h5 class="card-title">Cepillo electro 2.0</h5>
+        <p class="card-text">Cepillar con la ultima tecnología $749,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
+
+
+    <div class="row row-cols-1 row-cols-5 g-4 productos ">
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/cintacorazones.jpg" class="card-img-top" alt="Cinta corazones">
+        <div class="card-body ">
+        <h5 class="card-title">Cinta corazones</h5>
+        <p class="card-text">Cinta para decorar con amor $29,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+    <div class="col">
+    <div class="card  borderBox escala " style="width: 13rem;">
+        <img src="img/peluches.jpg" class="card-img-top" alt="Peluches ositos">
+        <div class="card-body">
+        <h5 class="card-title">Peluches ositos</h5>
+        <p class="card-text">Peluches de ositos tiernos $599,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+        </div>
+    </div>
+    </div>
+    <div class="">
+    <div class="card borderBox escala" style="width: 13rem;">
+        <img src="img/inodoroled.jpg" class="card-img-top" alt="Inodoro led">
+        <div class="card-body ">
+        <h5 class="card-title">Luz inodoro</h5>
+        <p class="card-text">Led para inodoro nocturno $349,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/monioperro.jpg" class="card-img-top" alt="Moño perro">
+        <div class="card-body ">
+        <h5 class="card-title">Moño para perro</h5>
+        <p class="card-text">Moño corbata para perro elegante $199,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+
+    <div class="col">
+    <div class="card  borderBox escala" style="width: 13rem;">
+        <img src="img/cintabebe.jpg" class="card-img-top" alt="Pack cinta bebe">
+        <div class="card-body ">
+        <h5 class="card-title">Cinta bebé</h5>
+        <p class="card-text">Pack cinta bebé colores $399,99</p>
+        <a href="#" class="btn btn-primary">Comprame</a>
+    </div>
+    </div>
+    </div>
+    
+</div>
             
 
             </main>
@@ -192,7 +256,10 @@
         <div class="col-4 offset-2">
         
         <div >
-        <img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        
+        <a href="index.html"><img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100">
+        </a>
+
         </div>
         <div class="d-flex w-100 gap-2">
         </div>
@@ -202,21 +269,20 @@
         
     </div>
 
-    <div class="col-3">
+    <div class="col-3 footerSmart text-light">
         <h5>CONTACTANOS</h5>
         <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">buy-me@gmail.com</a></li>
-        
-        <li class="nav-item mb-2"><a href="#"  class="nav p-0" ><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg>@Buy-me</a></li>
-        <li class="nav-item mb-2 "><a href="#" class="nav p-0"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg> Buy Me</a></li>
-        <li class="nav-item mb-2"><a href="#" class="nav p-0">0123456789</a></li>
+        <li class="nav-item mb-2">buy-me@gmail.com</li>
+        <li class="nav-item mb-2">@Buy-me</li>
+        <li class="nav-item mb-2 ">Buy Me</li>
+        <li class="nav-item mb-2">0123456789</li>
         
         </ul>
     </div>
 
     <div class="col-2">
         
-        <ul class="nav flex-column">
+        <ul class="nav flex-column text-dark footerSmart">
         <li class="nav-item mb-2"><a href="index.html" class="nav p-0 ">INICIO</a></li>
         <li class="nav-item mb-2"><a href="productos.html" class="nav p-0 ">PRODUCTOS</a></li>
         <li class="nav-item mb-2"><a href="nosotros.html" class="nav p-0 ">NOSOTROS</a></li>
@@ -226,17 +292,15 @@
 
     </div>
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top">
+    <div class="d-flex justify-content-between py-4 my-4 border-top text-light">
     <p>&copy; 2021 Company, Inc. All rights reserved.</p>
     <ul class="list-unstyled d-flex">
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
-        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="https://twitter.com/?lang=es"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://www.instagram.com/"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-light" href="https://es-la.facebook.com/"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
     </ul>
     </div>
 </footer>
-
-
         
 
 
