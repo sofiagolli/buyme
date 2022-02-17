@@ -1,216 +1,168 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto',
-    sans-serif;
-    font-family: 'Roboto Condensed',
-    sans-serif;
-
-
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.barraLogo{
+.barraLogo {
+  display: flex;
+  flex-direction: row;
+  background-color: #791127;
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-color: #791127;
+}
+
+.busqueda {
+  width: 70%;
+  padding-right: 30%;
+  margin: 0;
+}
+
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.botonBuscar {
+  background-color: #fff;
+  color: black;
+}
+.botonBuscar:hover {
+  background-color: #e2d5d5;
+  color: black;
+}
+
+.logo {
+  margin-left: 280%;
+  border-radius: 10px;
+  height: 7vh;
+}
+
+.footerFooter {
+  background-color: #791127;
+  color: black;
+  margin: 0px;
+  width: 100%;
+  margin-right: 0;
+}
+
+li {
+  list-style-type: none;
+  color: #fff;
+}
+li a {
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  margin: 0;
+  width: 100%;
+}
+
+.formulario {
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #533030;
+}
+.formulario .itemFormulario {
+  margin-left: 40px;
+}
+
+@media (max-width: 576px) {
+  .carouselEstilo {
+    display: none;
+  }
+
+  .botonBuscar {
+    display: none;
+  }
+
+  .logo {
     display: flex;
-    flex-direction: row;
-    background-color: #791127;
-    padding: 0;
-    margin: 0;
-    
-    
-    
-    
-}
+    align-items: flex-start;
+    margin-left: 30%;
+  }
 
-.menu{
+  .footerSmart {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    background-color:#791127;
-    
-    
+    justify-items: center;
+  }
+
+  .formularioSmart {
+    width: 95%;
+  }
 }
-
-.busqueda{
-    width: 70%;
-    padding-right: 30%;
-    margin: 0;
-}
-
-.barra{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.rojo{
-    background-color: red
-    ;
-}
-
-.botonBuscar{
-    background-color: #fff;
-    color:black;
-    
-}
-
-.botonBuscar:hover{
-    background-color:rgb(226, 213, 213);
-    color: black;
-}
-
-.logo{
-    margin-left: 280%;
-    border-radius: 10px;
-    height: 7vh;
-}
-
-.footerFooter{
-    background-color: #560F20;
-    color: black;
-    margin: 0px;
-    width: 100%;
-    margin-right: 0;
-}
-
-li{
-    list-style-type: none;
-    color: rgb(226, 216, 216);
-}
-
-a{
-    list-style-type: none;
-    color: rgb(247, 216, 216);
-    text-decoration: none;
-}
-li a{
-    list-style-type: none;
-    text-decoration: none;
-    color: rgb(255, 228, 228);
-}
-footer{
-    margin: 0;
-    width: 100%;
-}
-
-.formulario{
-    background-color: pink;
-    border-radius: 10px;
-    
-    box-shadow: 0px 0px 15px rgb(83, 48, 48);
-
-}
-.itemFormulario{
-    margin-left: 40px;
-    
-    
-}
-
-@media (max-width: 576px){
-    .carouselEstilo{
-        display:none;
-    }
-
-    .botonBuscar{
-        display:none;
-    }
-
-    .logo{
-        display: flex;
-        align-items: flex-start;
-        margin-left: 30%;
-    }
-
-    .footerSmart{
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        
-    }
-
-    .formularioSmart{
-        width: 95%;
-
-    }
-
-    
-    
-}
-
 @media (min-width: 577px) and (max-width: 991px) {
-    .botonBuscar {
-        display: none;
-    }
+  .botonBuscar {
+    display: none;
+  }
 
-    .logo {
-        display: flex;
-        align-items: flex-start;
-        margin-left: 30%;
-    }
+  .logo {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 30%;
+  }
 
-    .formularioSmart {
-        width: 95%;
-
-    }
-
-
+  .formularioSmart {
+    width: 95%;
+  }
+}
+.gradienteContacto {
+  background-color: #e96196;
+  background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
 }
 
-
-
-.gradienteContacto{
-    background-color: #e96196;
-    background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
-
-
-
+.gradienteNosotros {
+  background-color: #f6ecc4;
+  background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
 }
 
-.gradienteNosotros{
-    background-color: #f6ecc4;
-    background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
+.productos {
+  margin: 5%;
 }
 
-.productos{
-    margin: 5%;
-    
-    
-
+.borderBox {
+  box-shadow: 0px 0px 15px #533030;
 }
 
-.borderBox{
-    box-shadow: 0px 0px 15px rgb(83, 48, 48);
+.hoverMenu:hover {
+  background-color: #f8506f;
+  border-radius: 5%;
 }
 
-.hoverMenu:hover{
-    background-color: rgb(248, 80, 111);
-    border-radius: 5%;
-    
-    
+.escala {
+  transition: all 0.5s;
+  animation-name: escala;
+  animation-iteration-count: infinite;
+  animation-duration: 0.5s;
+  box-shadow: 0px 0px 15px #240f13;
 }
-
-.escala{
-transition: all 0.5s;
-animation-name: escala;
-animation-iteration-count: infinite;
-animation-duration: 0.5s;
-box-shadow: 0px 0px 15px rgb(36, 15, 19);
-}
-
-
 .escala:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-.categorias{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    text-transform: none;
-    list-style-type: none;
-    
+.categorias {
+  color: #fff;
+  text-decoration: none;
+  text-transform: none;
+  list-style-type: none;
 }
 
-.registrate{
-    font-weight: bold;
+.registrate {
+  font-weight: bold;
 }
 
+/*# sourceMappingURL=styles.css.map */
