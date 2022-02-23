@@ -1,0 +1,26 @@
+.botonBuscador{
+    background-color: white;
+    text-align: center;
+    color: rgb(1, 1, 7);
+    border: 1px solid black;
+    font-weight: bold;
+
+    &:hover{
+        filter:opacity(80%);
+    }
+}
+
+.botonComprar {
+    @extend .botonBuscador;
+    background-color: rgb(172, 26, 26);
+    color: rgb(255, 255, 255);
+    
+}
+
+.botonReg{
+    @extend .botonBuscador;
+    background-color: rgb(172, 26, 26);
+    color: white;
+    
+    
+}

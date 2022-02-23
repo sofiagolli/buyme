@@ -1,0 +1,16 @@
+@mixin fuentes ($medida , $grosor) {
+    font-size: $medida;
+    font-weight: $grosor;
+}
+
+.fuenteChica{
+    @include fuentes (1rem, 100);
+}
+
+.fuenteMediana{
+    @include fuentes (2rem, 500);
+}
+
+.fuenteGrande{
+    @include fuentes (3rem, 700);
+}

@@ -1,0 +1,37 @@
+$iconos : (
+    facebook:blue,
+    instagram: rgb(121, 16, 121),
+    twitter: rgb(23, 233, 248),
+    carrito: white,
+    like: white,
+
+);
+
+
+
+.botonFacebook{
+    color: map-get($map: $iconos, $key: facebook );
+    
+}
+
+.botonInstagram{
+    color: map-get($map: $iconos, $key: instagram );
+}
+
+.botonTwitter {
+    color: map-get($map: $iconos, $key: twitter);
+    
+    
+}
+
+.botonCarrito{
+    color : map-get($map: $iconos, $key: carrito );
+    
+
+}
+
+.botonLike{
+    color: map-get($map: $iconos, $key: like );
+    
+}
+
