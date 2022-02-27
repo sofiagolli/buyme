@@ -7,10 +7,19 @@
     @include fuentes (1rem, 100);
 }
 
+.fuenteIntermedia{
+    @include fuentes (1.5rem, 350 )
+}
+
 .fuenteMediana{
     @include fuentes (2rem, 500);
 }
 
 .fuenteGrande{
     @include fuentes (3rem, 700);
+}
+
+
+.registrate {
+    font-weight: bold;
 }

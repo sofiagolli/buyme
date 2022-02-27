@@ -1,19 +1,23 @@
 .botonBuscador{
     background-color: white;
     text-align: center;
-    color: rgb(1, 1, 7);
-    border: 1px solid black;
-    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(172, 171, 171);
+
+    
 
     &:hover{
-        filter:opacity(80%);
+        
+        filter:opacity(90%);
     }
 }
 
 .botonComprar {
-    @extend .botonBuscador;
-    background-color: rgb(172, 26, 26);
+    @extend .btnConfirmar;
+    background-color: rgb(190, 190, 190);
     color: rgb(255, 255, 255);
+    font-weight: bold;
+    
     
 }
 
@@ -23,4 +27,19 @@
     color: white;
     
     
+}
+
+.btnComprame{
+    padding-left: 18%;
+}
+
+.btnConfirmar{
+    @extend .botonBuscador;
+    background-color: rgb(44, 44, 44);
+    color: rgb(255, 255, 255);
+
+    &:hover{
+        color:#ffff;
+        background-color: rgb(3, 3, 3);
+    }
 }

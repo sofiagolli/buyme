@@ -4,6 +4,8 @@ $iconos : (
     twitter: rgb(23, 233, 248),
     carrito: white,
     like: white,
+    carritocard: rgb(0, 0, 0),
+    likecard: rgb(0, 0, 0),
 
 );
 
@@ -35,3 +37,10 @@ $iconos : (
     
 }
 
+.btnCarritoCard{
+    color: map-get($map: $iconos, $key: carritocard );
+}
+
+.btnLikeCard{
+    color: map-get($map: $iconos, $key: likecard);
+}

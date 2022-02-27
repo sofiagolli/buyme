@@ -24,10 +24,10 @@
         <nav class="navbar navbar-light bg-light p-0">
     <div class="container-fluid barraLogo ">
         <a class="navbar-brand" href="index.html">
-        <img class="logo img-fluid"  src="img/buymelogo.jpg" alt="" width="80" height="50"></a>
+        <img class="img-fluid logo"  src="img/quintointento-removebg.png"  width="110" height="100" alt="buyme logo"  ></a>
     <form class="d-flex busqueda ">
     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-    <button class="btn btn-outline-success botonBuscar" type="submit">Buscar</button>
+    <button class="btn botonBuscar botonBuscador" type="submit">Buscar</button>
     </form>
     </div>
 
@@ -57,14 +57,15 @@
         <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
         <li><a class="dropdown-item" href="mascotas.html">Mascotas</a></li>
         <li><a class="dropdown-item" href="cocina.html">Cocina</a></li>
+        <li><a class="dropdown-item" href="electro.html">Electro</a></li>
         
     </ul>
     </li>
 
     </div>
-    <div>
-        <i class="fa-solid fa-cart-shopping botonCarrito"></i>
-        <i class="fa-solid fa-heart botonLike"></i>
+    <div class="iconosPosicion d-flex"> 
+    <a href="carrito.html"><i class="fa-solid fa-cart-shopping botonCarrito p-2"></i></a>
+    <i class="fa-solid fa-heart botonLike p-2"></i>
     </div>
     </div>
     </div>
@@ -75,35 +76,81 @@
 
     
     <main>
+
+    <div class="container-fluid categoriasCir">
+
+    
+    <div class="row">
+    <div class="col-2  p-3">
+        <a href="hogar.html">
+        <img src="img/hogarcirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Hogar</h1>
+        </div>
+        
+        
+        <div class="col-2 p-3">
+        <a href="decoracion.html">
+        <img src="img/plantacirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Decoración</h1>
+        </div>
+        
+
+        <div class="col-2 p-3">
+        <a href="accesorios.html">
+        <img src="img/sombrerocirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Accesorios</h1>
+        </div>
+
+        <div class="col-2 p-3">
+        <a href="mascotas.html">
+        <img src="img/perrocirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Mascotas</h1>
+        </div>
+
+        <div class="col-2  p-3">
+        <a href="cocina.html">
+        <img src="img/palocirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Cocina</h1>
+        </div>
+        
+
+        <div class="col-2  p-3">
+        <a href="electro.html">
+        <img src="img/joysticcirculo.png" class="bd-placeholder-img rounded-circle" width="110" height="110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text></img></a>
+        <h1 class="h4">Electrónica</h1>
+        </div>
+        </div>
+        </div>
+
         <h1 class="tituloProductos">Hogar</h1>
     <div class="container-fluid">   
-    <div class=" row row-cols-1  row-cols-sm-2 row-cols-md-4 row-cols-lg-4 g-1 m-1 p-1 productos ">
+    <div class=" row row-cols-1  row-cols-sm-2 row-cols-md-4 row-cols-lg-4 gx-5 productos ">
     <div class="col">
     <div class="card  borderBox escala  " style="width: 12rem;">
-        <img src="img/pelogato.jpg" class="card-img-top" alt="cepillo gato">
+        <img src="img/hogar/estante.jpg" class="card-img-top" alt="Estante">
         <div class="card-body">
-        <h2 class="card-title h4">Cepillo de gato</h2>
-        <p class="card-text">Cepillo ideal para gatos pelo largo y suave $599,99</p>
+        <h2 class="card-title h4">Estante </h2>
+        <p class="card-text">Estante pequeño $599,99</p>
         <a href="#" class="btn botonComprar">Comprame</a>
     </div>
     </div>
     </div>
     <div class="col">
     <div class="card  borderBox escala" style="width: 12rem;">
-        <img src="img/espatulas.jpg" class="card-img-top" alt="espatulas de colores">
+        <img src="img/hogar/bolsabasura.jpg" class="card-img-top" alt="bolsa basura">
         <div class="card-body">
-        <h2 class="card-title h4">Espátulas colores</h2>
-        <p class="card-text">Espátulas colores de máxima calidad $199,99</p>
+        <h2 class="card-title h4">Basura</h2>
+        <p class="card-text">Colgador de basura $199,99</p>
         <a href="#" class="btn botonComprar">Comprame</a>
     </div>
     </div>
     </div>
     <div class="col">
     <div class="card  borderBox escala" style="width: 12rem;">
-        <img src="img/vaquitadientes.jpg" class="card-img-top" alt="Vaquita dientes">
+        <img src="img/hogar/organizadorbaño.jpg" class="card-img-top" alt="Organizador baño">
         <div class="card-body">
-        <h2 class="card-title h4">Vaquita dentífrico</h5>
-        <p class="card-text">Vaquita de San Anonio pasta dientes  $349,99</p>
+        <h2 class="card-title h4">Estantes baño</h5>
+        <p class="card-text">Estantes para organizar baño $349,99</p>
         <a href="#" class="btn botonComprar">Comprame</a>
     </div>
     </div>
@@ -111,10 +158,10 @@
 
     <div class="col">
     <div class="card  borderBox escala" style="width: 12rem;">
-        <img src="img/comidita.jpg" class="card-img-top" alt="Comidita juguetes">
+        <img src="img/hogar/placaspared.jpg" class="card-img-top" alt="Placas">
         <div class="card-body">
-        <h2 class="card-title h4">Comida para jugar</h2>
-        <p class="card-text">Comidita para jugar a cocinar $399,99</p>
+        <h2 class="card-title h4">Placas</h2>
+        <p class="card-text">Placas para pared autoadhesivas $399,99</p>
         <a href="#" class="btn botonComprar">Comprame</a>
     </div>
     </div>
@@ -127,45 +174,53 @@
 
 
 
-    <div class="row row-cols-1 row-cols-sm-2  row-cols-md-4  row-cols-lg-4 g-1 m-1 p-1 productos ">
+    <div class="row row-cols-1 row-cols-sm-2  row-cols-md-4  row-cols-lg-4 gx-5 productos ">
     <div class="col">
     <div class="card  borderBox escala claseCard " style="width: 12rem;">
-        <img src="img/agarraderas.jpg" class="card-img-top" alt="Agarraderas">
+        <img src="img/hogar/cuelgaservilletas.jpg" class="card-img-top" alt="Cuelga servilletas">
         <div class="card-body ">
-        <h2 class="card-title h4">Agarraderas</h2>
-        <p class="card-text">Agarraderas, no mas quemaduras 149,99 $</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Servilletero</h2>
+        <p class="card-text">Colgador de servilletas 149,99 $</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/desgranachoclo.jpg" class="card-img-top" alt="desgranador">
+        <img src="img/hogar/portaesponja.jpg" class="card-img-top" alt="Porta esponja">
         <div class="card-body">
-        <h2 class="card-title h4">Desgranador</h2>
-        <p class="card-text">Sacar granos de choclo fácil $299,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Porta esponja</h2>
+        <p class="card-text">Porta esponja antihumedad $299,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
         </div>
     </div>
     </div>
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/esponjas.jpg" class="card-img-top" alt="Esponja make up">
+        <img src="img/hogar/estantemicroondas.jpg" class="card-img-top" alt="Estante microondas">
         <div class="card-body ">
-        <h2 class="card-title h4">Esponja </h2>
-        <p class="card-text">Esponja maquillaje $99,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Estante </h2>
+        <p class="card-text">Estante para microondas $99,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
 
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/gafas.jpg" class="card-img-top" alt="Gafas de sol">
+        <img src="img/hogar/pasacable.jpg" class="card-img-top" alt="Organizador cables">
         <div class="card-body ">
-        <h2 class="card-title h4">Gafas de sol</h2>
-        <p class="card-text">Gafas de sol diseño super cool 599,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Pasa cables</h2>
+        <p class="card-text">Sosten de cables 599,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
@@ -175,45 +230,53 @@
 </div>
 
 
-    <div class="row row-cols-1 row-cols-sm-2  row-cols-md-4  row-cols-lg-4 g-1 m-1 p-1 productos ">
+    <div class="row row-cols-1 row-cols-sm-2  row-cols-md-4  row-cols-lg-4 gx-5 productos ">
     <div class="col">
     <div class="card  borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/cintacorazones.jpg" class="card-img-top" alt="Cinta corazones">
+        <img src="img/hogar/organizadorcables.jpg" class="card-img-top" alt="Organizador cables">
         <div class="card-body ">
-        <h2 class="card-title h4">Cinta corazones</h2>
-        <p class="card-text">Cinta para decorar  $29,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Organizador</h2>
+        <p class="card-text">Organizador de cables $29,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/peluches.jpg" class="card-img-top" alt="Peluches ositos">
+        <img src="img/hogar/estanteblanco.jpg" class="card-img-top" alt="Estant">
         <div class="card-body">
-        <h2 class="card-title h4">Peluches ositos</h2>
-        <p class="card-text">Peluches de ositos tiernos $599,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Estante</h2>
+        <p class="card-text">Estante con rejilla $599,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
         </div>
     </div>
     </div>
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/inodoroled.jpg" class="card-img-top" alt="Inodoro led">
+        <img src="img/hogar/destapacaño.jpg" class="card-img-top" alt="Destapador">
         <div class="card-body">
-        <h2 class="card-title h4">Luz inodoro</h2>
-        <p class="card-text">Led para inodoro para iluminar $349,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Destapador</h2>
+        <p class="card-text">Destapador de cañeria $349,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
 
     <div class="col">
     <div class="card borderBox escala claseCard" style="width: 12rem;">
-        <img src="img/monioperro.jpg" class="card-img-top" alt="Moño perro">
+        <img src="img/hogar/luzescalera.jpg" class="card-img-top" alt="Luz escalera">
         <div class="card-body claseCard ">
-        <h2 class="card-title h4">Moño para perro</h2>
-        <p class="card-text">Moño corbata para perro $199,99</p>
-        <a href="#" class="btn botonComprar">Comprame</a>
+        <h2 class="card-title h4">Luz escalera</h2>
+        <p class="card-text">Luz para escalera $199,99</p>
+        <div class="btnComprame">
+        <a href="carrito.html" class="btn botonComprar">Comprame</a>
+        </div>
     </div>
     </div>
     </div>
@@ -230,7 +293,7 @@
         <div class="col-4 offset-2">
 
         <div>
-        <a href="index.html"><img class= "logoFooter img-fluid" src="img/buymelogo.jpg" alt="imagen logo" width="200px" height="100"></a>
+        <a href="index.html"><img class= "img-fluid" src="img/quintointento-removebg.png" alt="imagen logo" width="300" height="100"></a>
         </div>
         <div class="d-flex w-100 gap-2">
         </div>
@@ -268,7 +331,6 @@
     <div class="d-flex">
     <i class="fa-brands fa-facebook-square botonFacebook p-2"></i>
     <i class="fa-brands fa-instagram botonInstagram p-2"></i>
-    <i class="fa-brands fa-twitter botonTwitter p-2"></i>
     </div>
     </div>
 </footer>

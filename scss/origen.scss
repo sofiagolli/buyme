@@ -2,28 +2,15 @@
 @import "colores";
 @import "fuentes";
 @import "iconos";
-@import "imagenes";
 @import "reset";
+@import "backgrounds";
 
 
-
-
-
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto',
-        sans-serif;
-    font-family: 'Roboto Condensed',
-        sans-serif;
-
-
-}
 
 .barraLogo {
     display: flex;
     flex-direction: row;
-    background-color: $bordo;
+    background-color: $rosaclaro;
     padding: 0;
     margin: 0;
 
@@ -35,7 +22,7 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
-    background-color: $bordo;
+    background-color: $violetaoscuro;
     & .hoverMenu:hover {
         background-color: $rosafuerte;
         border-radius: 5%;
@@ -61,7 +48,7 @@
 
 .botonBuscar {
     background-color: $blanco;
-    color: black;
+    color: rgb(0, 0, 0);
     &:hover{
         background-color: $gris;
     color: black;
@@ -71,13 +58,13 @@
 
 
 .logo {
-    margin-left: 280%;
-    border-radius: 10px;
-    height: 7vh;
+    margin-left: 250%;
+
+    
 }
 
 .footerFooter {
-    background-color: $bordo;
+    background-color: $violetaoscuro;
     color: black;
     margin: 0px;
     width: 100%;
@@ -139,6 +126,10 @@ footer {
     .formularioSmart {
         width: 95%;
 
+    }
+
+    .categoriasCir{
+        display: none;
     }
 
 }
@@ -203,9 +194,7 @@ footer {
 
 }
 
-.registrate {
-    font-weight: bold;
-}
+
 
 .claseCard{
     width: 100%;
@@ -218,8 +207,8 @@ footer {
     justify-content: center;
 }
 
-.mainContacto{
-    background-color: #e96196;
-    background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
 
+.iconosPosicion{
+    margin-left: 70%;
+    
 }

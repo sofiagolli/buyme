@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Argentina, Compras, Online, Hogar, Moda, Bazar, Tienda"> 
+    <title>Categoria accesorios Buy-me</title>
+    <meta name="description" content="Los mejores accesorios al alcance de un click. Buyme, tu tienda online para darte un gusto">
+    <script src="https://kit.fontawesome.com/490ce01996.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <header>
+        <!-----Menu navegación--->
+        <!---logo y barra -->
+        
+        <nav class="navbar navbar-light bg-light p-0">
+    <div class="container-fluid barraLogo ">
+        <a class="navbar-brand" href="index.html">
+        <img class="img-fluid logo"  src="img/quintointento-removebg.png"  width="110" height="100" alt="buyme logo"  ></a>
+    <form class="d-flex busqueda ">
+    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+    <button class="btn botonBuscar botonBuscador" type="submit">Buscar</button>
+    </form>
+    </div>
+
+</nav>
+
+
+    <!---MENU-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+    <div class="container-fluid menu">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+    
+        <a class="nav-link active hoverMenu" aria-current="page" href="index.html">Inicio</a>
+        <a class="nav-link active hoverMenu" href="productos.html">Productos</a>
+        <a class="nav-link active hoverMenu" href="contacto.html">Contacto</a>
+        <a class="nav-link active hoverMenu" href="nosotros.html">Nosotros</a>
+        <a class="nav-link active hoverMenu" href="registrate.html">Registrate</a>
+        <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle categorias" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
+    <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="hogar.html">Hogar</a></li>
+        <li><a class="dropdown-item" href="decoracion.html">Decoración</a></li>
+        <li><a class="dropdown-item" href="accesorios.html">Accesorios</a></li>
+        <li><a class="dropdown-item" href="mascotas.html">Mascotas</a></li>
+        <li><a class="dropdown-item" href="cocina.html">Cocina</a></li>
+        <li><a class="dropdown-item" href="electro.html">Electro</a></li>
+        
+    </ul>
+    </li>
+
+    </div>
+    <div class="iconosPosicion d-flex"> 
+    <a href="carrito.html"><i class="fa-solid fa-cart-shopping botonCarrito p-2"></i></a>
+    <i class="fa-solid fa-heart botonLike p-2"></i>
+    </div>
+    </div>
+    </div>
+
+</nav>
+
+</header>
+
+<main class= "tuCarrito" >
+
+    <div class=" container-fluid row p-5">
+        <div class="col-md-4 order-md-2 mb-4  ">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+        <span>Tu carrito</span>
+        <span class="badge bg-black rounded-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+            <h6 class="my-0">Producto</h6>
+            <small class="text-muted">Descripción de compra</small>
+            </div>
+            <span class="text-muted">$399,99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+            <h6 class="my-0">Producto</h6>
+            <small class="text-muted">Descripción de compra</small>
+            </div>
+            <span class="text-muted">$149,99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+            <h6 class="my-0">Producto</h6>
+            <small class="text-muted">Descripción de compra</small>
+            </div>
+            <span class="text-muted">$599,99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="text-success">
+            <h6 class="my-0">Descuento exclusivo</h6>
+            <small>Codigo ejemplo</small>
+            </div>
+            <span class="text-success"> -$99,99</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+            <span>Total (Arg)</span>
+            <strong>$1049,98</strong>
+        </li>
+        </ul>
+
+        <form class="card p-5">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Codigo de promoción">
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+        </div>
+        </form>
+    </div>
+    <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Datos de envío</h4>
+        <form class="needs-validation" novalidate>
+        <div class="row g-3">
+            <div class="col-sm-6">
+            <label for="firstName" class="form-label"></label>
+            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
+            <div class="invalid-feedback">
+                Valid first name is required.
+            </div>
+            </div>
+
+            <div class="col-sm-6">
+            <label for="lastName" class="form-label"></label>
+            <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
+            <div class="invalid-feedback">
+                Valid last name is required.
+            </div>
+            </div>
+
+            <div class="col-12">
+            <label for="username" class="form-label"></label>
+            <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required>
+            <div class="invalid-feedback">
+                Your username is required.
+                </div>
+            </div>
+            </div>
+
+            <div class="col-12">
+            <label for="email" class="form-label"> <span class="text-muted"></span></label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            <div class="invalid-feedback">
+                Please enter a valid email address for shipping updates.
+            </div>
+            </div>
+
+            <div class="col-12">
+            <label for="address" class="form-label"></label>
+            <input type="text" class="form-control" id="address" placeholder="Dirección" required>
+            <div class="invalid-feedback">
+                Please enter your shipping address.
+            </div>
+            </div>
+
+            <div class="col-12">
+            <label for="address2" class="form-label"><span class="text-muted"></span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Teléfono">
+            </div>
+
+            <div class="col-md-5">
+            <label for="country" class="form-label">País</label>
+            <select class="form-select" id="country" required>
+                <option value="">Elegí tu país...</option>
+                <option>Argentina</option>
+                <option>Uruguay</option>
+                <option>Chile</option>
+                <option>Bolivia</option>
+                <option>Paraguay</option>
+                <option>Perú</option>
+                <option>Colombia</option>
+                <option>Brasil</option>
+                <option>Venezuela</option>
+            
+            </select>
+            <div class="invalid-feedback">
+                Please select a valid country.
+            </div>
+            </div>
+
+        
+        </div>
+
+        <hr class="my-4">
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">La dirección de envío es la misma que mi dirección de facturación</label>
+        </div>
+
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">La dirección de envío es la misma que mi dirección de facturación</label>
+        </div>
+
+        <hr class="my-4">
+
+        <h4 class="mb-3">Formas de pago</h4>
+
+        <div class="my-3">
+            <div class="form-check">
+            <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+            <label class="form-check-label" for="credit">Tarjeta de crédito</label>
+            </div>
+            <div class="form-check">
+            <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+            <label class="form-check-label" for="debit">Tarjeta de débito</label>
+            </div>
+            <div class="form-check">
+            <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+            <label class="form-check-label" for="paypal">Mercado Pago</label>
+            </div>
+        </div>
+
+        <div class="row gy-3">
+            <div class="col-md-6">
+            <label for="cc-name" class="form-label">Nombre como figura en la tarjeta</label>
+            <input type="text" class="form-control" id="cc-name" placeholder="" required>
+            <small class="text-muted"></small>
+            <div class="invalid-feedback">
+                Name on card is required
+            </div>
+            </div>
+
+            <div class="col-md-6">
+            <label for="cc-number" class="form-label">Número de tarjeta</label>
+            <input type="text" class="form-control" id="cc-number" placeholder="" required>
+            <div class="invalid-feedback">
+                Credit card number is required
+            </div>
+            </div>
+
+            <div class="col-md-3">
+            <label for="cc-expiration" class="form-label">Vencimiento</label>
+            <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+            <div class="invalid-feedback">
+                Expiration date required
+            </div>
+            </div>
+
+            <div class="col-md-3">
+            <label for="cc-cvv" class="form-label">CVV</label>
+            <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+            <div class="invalid-feedback">
+                Security code required
+            </div>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <button class="w-100 btn btn-lg btnConfirmar" type="submit">Confirmar compra</button>
+        </form>
+    </div>
+    </div>
+</main>
+
+<!-----footer--->
+        
+    <footer class="p-3 container-fluid footerFooter ">
+    <div class="row footerSmart">
+    <div class="col-6 ">
+        <div class="col-4 offset-2">
+
+        <div>
+        <a href="index.html"><img class= "img-fluid" src="img/quintointento-removebg.png" alt="imagen logo" width="300" height="100"></a>
+        </div>
+        <div class="d-flex w-100 gap-2">
+        </div>
+        
+        </div>
+        
+        
+    </div>
+
+    <div class="col-3 footerSmart text-light">
+        <h2>CONTACTANOS</h2>
+        <ul class="nav flex-column">
+        <li class="nav-item mb-2">buy-me@gmail.com</li>
+        <li class="nav-item mb-2">@Buy-me</li>
+        <li class="nav-item mb-2 ">Buy Me</li>
+        <li class="nav-item mb-2">0123456789</li>
+        
+        </ul>
+    </div>
+
+    <div class="col-2">
+        
+        <ul class="nav flex-column text-dark footerSmart">
+        <li class="nav-item mb-2"><a href="index.html" class="nav p-0 ">INICIO</a></li>
+        <li class="nav-item mb-2"><a href="productos.html" class="nav p-0 ">PRODUCTOS</a></li>
+        <li class="nav-item mb-2"><a href="nosotros.html" class="nav p-0 ">NOSOTROS</a></li>
+        <li class="nav-item mb-2"><a href="registrate.html" class="nav p-0 ">REGISTRATE</a></li>
+        </ul>
+    </div>
+
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top text-light">
+    <p>&copy; 2021 Company, Inc. All rights reserved.</p>
+    <div class="d-flex">
+    <i class="fa-brands fa-facebook-square botonFacebook p-2"></i>
+    <i class="fa-brands fa-instagram botonInstagram p-2"></i>
+    </div>
+    </div>
+</footer>
+        
+
+
+
+
+
+
+    
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+</body>
+</html>  
+
+
