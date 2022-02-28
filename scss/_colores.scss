@@ -2,7 +2,6 @@
 $bordo:#791127;
 $blanco:#fff;
 $rosa:pink;
-$rosafuerte:#f8506f;
 $sombraformulario:rgb(83, 48, 48);
 $gris:rgb(226, 213, 213);
 $gradiente:linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
@@ -12,4 +11,32 @@ $celestewish:#00b8f0;
 $celesteclaro:#DBE0FE;
 $celesteoscuro:#A2D2FF;
 $lila:#CDB4DB;
-$violetaoscuro: #ff6a8a;
+$rosita: #ffb1c9;
+$footer:#f8506f;
+$negro: black;
+
+
+
+
+
+.gradienteContacto {
+    background-color: #e96196;
+    background-image: $gradiente
+}
+
+.categorias {
+    color: $blanco;
+    text-decoration: none;
+    text-transform: none;
+    list-style-type: none;
+
+}
+
+.gradienteHeader{
+    background: rgb(255, 94, 169);
+    background: linear-gradient(90deg, rgba(255, 94, 169, 1) 0%, rgba(0, 206, 255, 1) 50%, rgba(215, 255, 116, 1) 100%);
+}
+
+.total {
+    background-color: rgb(255, 238, 89);
+}

@@ -1,0 +1,60 @@
+.barraLogo {
+    display: flex;
+    flex-direction: row;
+    background-color: $rosaclaro;
+    padding: 0;
+    margin: 0;
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: $rosita;
+    font-weight: bold;
+
+    & .hoverMenu:hover {
+        background-color: rgb(255, 109, 153);
+        border-radius: 5%;
+    }
+
+}
+
+.busqueda {
+    width: 70%;
+    padding-right: 30%;
+    margin: 0;
+    
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.botonBuscar {
+    background-color: $blanco;
+    color: $negro;
+    border: 1px rgb(116, 116, 116) ;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: $gris;
+        color: $negro;
+    }
+
+}
+
+.logo {
+    margin-left: 250%;
+
+}
+
+.barraBarra{
+    border: 1px rgb(116, 116, 116) ;
+    border-radius: 7px;
+}

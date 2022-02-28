@@ -20,22 +20,20 @@
     <header>
         <!-----Menu navegación--->
         <!---logo y barra -->
-        
-        <nav class="navbar navbar-light bg-light p-0">
-    <div class="container-fluid barraLogo ">
+    <nav class="navbar navbar-light bg-light p-0">
+    <div class="container-fluid barraLogo  gradienteHeader">
         <a class="navbar-brand" href="index.html">
-        <img class="img-fluid logo"  src="img/quintointento-removebg.png"  width="110" height="100" alt="buyme logo"  ></a>
+        <img class="img-fluid logo"  src="img/logo4-removebg-preview.png"  width="110" height="100" alt="buyme logo"  ></a>
     <form class="d-flex busqueda ">
-    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-    <button class="btn botonBuscar botonBuscador" type="submit">Buscar</button>
+    <input class="form-control me-2 barraBarra" type="search" placeholder="Buscar" aria-label="Search">
+    <button class="btn btn-outline-success botonBuscar" type="submit">Buscar</button>
     </form>
     </div>
-
 </nav>
 
 
     <!---MENU-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
     <div class="container-fluid menu">
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,61 +74,61 @@
 
 <main class= "tuCarrito" >
 
-    <div class=" container-fluid row p-5">
-        <div class="col-md-4 order-md-2 mb-4  ">
-        <h4 class="d-flex justify-content-between align-items-center mb-3">
+    <div class=" container-fluid row p-5 ">
+        <div class="col-md-4 order-md-2 mb-4 ">
+        <h4 class="d-flex justify-content-between align-items-center mb-3  ">
         <span>Tu carrito</span>
         <span class="badge bg-black rounded-pill">3</span>
         </h4>
-        <ul class="list-group mb-3">
-        <li class="list-group-item d-flex justify-content-between lh-sm">
+        <ul class="list-group ">
+        <li class="list-group-item d-flex justify-content-between lh-sm carritoPrecio">
             <div>
             <h6 class="my-0">Producto</h6>
             <small class="text-muted">Descripción de compra</small>
             </div>
             <span class="text-muted">$399,99</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between lh-sm">
+        <li class="list-group-item d-flex justify-content-between lh-sm carritoPrecio">
             <div>
             <h6 class="my-0">Producto</h6>
             <small class="text-muted">Descripción de compra</small>
             </div>
             <span class="text-muted">$149,99</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between lh-sm">
+        <li class="list-group-item d-flex justify-content-between lh-sm carritoPrecio">
             <div>
             <h6 class="my-0">Producto</h6>
             <small class="text-muted">Descripción de compra</small>
             </div>
             <span class="text-muted">$599,99</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between bg-light">
+        <li class="list-group-item d-flex justify-content-between bg-light carritoPrecio">
             <div class="text-success">
             <h6 class="my-0">Descuento exclusivo</h6>
             <small>Codigo ejemplo</small>
             </div>
             <span class="text-success"> -$99,99</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between">
+        <li class="list-group-item d-flex justify-content-between carritoPrecio total">
             <span>Total (Arg)</span>
             <strong>$1049,98</strong>
         </li>
         </ul>
 
-        <form class="card p-5">
-        <div class="input-group">
+        <form class="card carritoPrecio">
+        <div class="input-group ">
             <input type="text" class="form-control" placeholder="Codigo de promoción">
             <button type="submit" class="btn btn-secondary">Enviar</button>
         </div>
         </form>
     </div>
-    <div class="col-md-7 col-lg-8">
+    <div class="col-md-7 col-lg-8 formCarrito">
         <h4 class="mb-3">Datos de envío</h4>
         <form class="needs-validation" novalidate>
         <div class="row g-3">
-            <div class="col-sm-6">
-            <label for="firstName" class="form-label"></label>
-            <input type="text" class="form-control" id="firstName" placeholder="Nombre" value="" required>
+            <div class="col-sm-6 ">
+            <label for="firstName" class="form-label "></label>
+            <input type="text" class="form-control " id="firstName" placeholder="Nombre" value="" required>
             <div class="invalid-feedback">
                 Valid first name is required.
             </div>
@@ -138,7 +136,7 @@
 
             <div class="col-sm-6">
             <label for="lastName" class="form-label"></label>
-            <input type="text" class="form-control" id="lastName" placeholder="Apellido" value="" required>
+            <input type="text" class="form-control " id="lastName" placeholder="Apellido" value="" required>
             <div class="invalid-feedback">
                 Valid last name is required.
             </div>
@@ -148,7 +146,7 @@
             <label for="username" class="form-label"></label>
             <div class="input-group has-validation">
                 <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required>
+                <input type="text" class="form-control " id="username" placeholder="Nombre de usuario" required>
             <div class="invalid-feedback">
                 Your username is required.
                 </div>
@@ -157,7 +155,7 @@
 
             <div class="col-12">
             <label for="email" class="form-label"> <span class="text-muted"></span></label>
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="email" class="form-control " id="email" placeholder="Email">
             <div class="invalid-feedback">
                 Please enter a valid email address for shipping updates.
             </div>
@@ -165,7 +163,7 @@
 
             <div class="col-12">
             <label for="address" class="form-label"></label>
-            <input type="text" class="form-control" id="address" placeholder="Dirección" required>
+            <input type="text" class="form-control " id="address" placeholder="Dirección" required>
             <div class="invalid-feedback">
                 Please enter your shipping address.
             </div>
@@ -173,12 +171,12 @@
 
             <div class="col-12">
             <label for="address2" class="form-label"><span class="text-muted"></span></label>
-            <input type="text" class="form-control" id="address2" placeholder="Teléfono">
+            <input type="text" class="form-control " id="address2" placeholder="Teléfono">
             </div>
 
             <div class="col-md-5">
             <label for="country" class="form-label">País</label>
-            <select class="form-select" id="country" required>
+            <select class="form-select " id="country" required>
                 <option value="">Elegí tu país...</option>
                 <option>Argentina</option>
                 <option>Uruguay</option>
@@ -281,7 +279,7 @@
         <div class="col-4 offset-2">
 
         <div>
-        <a href="index.html"><img class= "img-fluid" src="img/quintointento-removebg.png" alt="imagen logo" width="300" height="100"></a>
+        <a href="index.html"><img class= "img-fluid" src="img/logo4-removebg-preview.png" alt="imagen logo" width="300" height="100"></a>
         </div>
         <div class="d-flex w-100 gap-2">
         </div>
@@ -291,7 +289,7 @@
         
     </div>
 
-    <div class="col-3 footerSmart text-light">
+    <div class="col-3 footerSmart text-dark">
         <h2>CONTACTANOS</h2>
         <ul class="nav flex-column">
         <li class="nav-item mb-2">buy-me@gmail.com</li>
@@ -314,11 +312,11 @@
 
     </div>
 
-    <div class="d-flex justify-content-between py-4 my-4 border-top text-light">
+    <div class="d-flex justify-content-between py-4 my-4 border-top text-dark">
     <p>&copy; 2021 Company, Inc. All rights reserved.</p>
     <div class="d-flex">
-    <i class="fa-brands fa-facebook-square botonFacebook p-2"></i>
-    <i class="fa-brands fa-instagram botonInstagram p-2"></i>
+    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square botonFacebook fa-2x p-1"></i></a>
+    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram botonInstagram fa-2x p-1 "></i></a>
     </div>
     </div>
 </footer>

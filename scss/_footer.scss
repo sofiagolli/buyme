@@ -1,0 +1,25 @@
+.footerFooter {
+    background-color: $footer;
+    color: $negro;
+    margin: 0px;
+    width: 100%;
+    margin-right: 0;
+}
+
+li {
+    list-style-type: none;
+    color: $negro;
+
+    a {
+        list-style-type: none;
+        color: $negro;
+        text-decoration: none;
+    }
+
+}
+
+
+footer {
+    margin: 0;
+    width: 100%;
+}

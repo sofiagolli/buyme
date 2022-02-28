@@ -1,0 +1,56 @@
+@media (max-width: 576px) {
+    .carouselEstilo {
+        display: none;
+    }
+
+    .botonBuscar {
+        display: none;
+    }
+
+    .logo {
+        margin: 0%;
+        margin-left: 140%;
+
+    }
+
+    .footerSmart {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+
+    }
+
+    .formularioSmart {
+        width: 95%;
+
+    }
+
+    .categoriasCir {
+        display: none;
+    }
+
+    .busqueda {
+        width: 90%;
+        padding: 1%;
+        margin: 2%;
+        padding-left: 13%;
+    }
+
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+    .botonBuscar {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30%;
+    }
+
+    .formularioSmart {
+        width: 95%;
+
+    }
+}

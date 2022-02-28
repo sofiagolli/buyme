@@ -2,10 +2,10 @@ $iconos : (
     facebook:blue,
     instagram: rgb(121, 16, 121),
     twitter: rgb(23, 233, 248),
-    carrito: white,
-    like: white,
-    carritocard: rgb(0, 0, 0),
-    likecard: rgb(0, 0, 0),
+    carrito: rgb(0, 0, 0),
+    like: rgb(0, 0, 0),
+    carritocard: rgb(0,0,0),
+    likecard: rgb(0,0,0),
 
 );
 
@@ -43,4 +43,9 @@ $iconos : (
 
 .btnLikeCard{
     color: map-get($map: $iconos, $key: likecard);
+}
+
+.iconosPosicion {
+    margin-left: 70%;
+
 }
