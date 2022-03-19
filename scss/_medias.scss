@@ -1,7 +1,5 @@
 @media (max-width: 576px) {
-    .carouselEstilo {
-        display: none;
-    }
+    
 
     .botonBuscar {
         display: none;
@@ -36,6 +34,10 @@
         padding-left: 13%;
     }
 
+    .productos{
+        width: 100%;
+    }
+
 }
 
 @media (min-width: 577px) and (max-width: 991px) {
@@ -54,3 +56,5 @@
 
     }
 }
+
+

@@ -32,11 +32,6 @@
   background-color: #030303;
 }
 
-.gradienteContacto {
-  background-color: #e96196;
-  background-image: linear-gradient(315deg, #f6ecc4 0%, #f7d4d4 74%);
-}
-
 .categorias {
   color: #fff;
   text-decoration: none;
@@ -53,8 +48,12 @@
   background-color: #ffee59;
 }
 
+.mainContacto, .tuCarrito, .mainNosotros {
+  background-color: #ffefcc;
+}
+
 .footerFooter {
-  background-color: #f8506f;
+  background-color: #ffb1c9;
   color: black;
   margin: 0px;
   width: 100%;
@@ -114,6 +113,10 @@ footer {
   justify-content: center;
 }
 
+.textoContacto {
+  font-weight: bold;
+}
+
 .productos {
   margin: 5%;
 }
@@ -163,7 +166,7 @@ footer {
 }
 
 .logo {
-  margin-left: 250%;
+  margin-left: 100%;
 }
 
 .barraBarra {
@@ -187,27 +190,11 @@ footer {
   color: black;
 }
 
-.botonLike {
-  color: black;
-}
-
 .btnCarritoCard {
   color: black;
 }
 
-.btnLikeCard {
-  color: black;
-}
-
-.iconosPosicion {
-  margin-left: 70%;
-}
-
 @media (max-width: 576px) {
-  .carouselEstilo {
-    display: none;
-  }
-
   .botonBuscar {
     display: none;
   }
@@ -236,6 +223,10 @@ footer {
     padding: 1%;
     margin: 2%;
     padding-left: 13%;
+  }
+
+  .productos {
+    width: 100%;
   }
 }
 @media (min-width: 577px) and (max-width: 991px) {

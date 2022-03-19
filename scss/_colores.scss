@@ -14,15 +14,9 @@ $lila:#CDB4DB;
 $rosita: #ffb1c9;
 $footer:#f8506f;
 $negro: black;
+$total:rgb(255, 238, 89);
+$bc:rgb(255, 239, 204);
 
-
-
-
-
-.gradienteContacto {
-    background-color: #e96196;
-    background-image: $gradiente
-}
 
 .categorias {
     color: $blanco;
@@ -38,5 +32,18 @@ $negro: black;
 }
 
 .total {
-    background-color: rgb(255, 238, 89);
+    background-color: $total;
+}
+
+.mainContacto {
+    background-color: rgb(255, 239, 204);
+
+}
+
+.mainNosotros {
+    @extend .mainContacto;
+}
+
+.tuCarrito {
+    @extend .mainContacto;
 }

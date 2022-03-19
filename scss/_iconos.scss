@@ -5,7 +5,7 @@ $iconos : (
     carrito: rgb(0, 0, 0),
     like: rgb(0, 0, 0),
     carritocard: rgb(0,0,0),
-    likecard: rgb(0,0,0),
+
 
 );
 
@@ -32,10 +32,6 @@ $iconos : (
 
 }
 
-.botonLike{
-    color: map-get($map: $iconos, $key: like );
-    
-}
 
 .btnCarritoCard{
     color: map-get($map: $iconos, $key: carritocard );
@@ -45,7 +41,4 @@ $iconos : (
     color: map-get($map: $iconos, $key: likecard);
 }
 
-.iconosPosicion {
-    margin-left: 70%;
 
-}
