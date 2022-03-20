@@ -34,13 +34,24 @@
         padding-left: 13%;
     }
 
-    .productos{
-        width: 100%;
+    
+    .proSmart{
+        width: 22rem;
+        margin-bottom: 5%;
+        
     }
-
+    
+    .btnComprame{
+        padding-left: 33%;
+    }
+    
+    .carSmart{
+        height: 17vh;
+    }
+    
 }
 
-@media (min-width: 577px) and (max-width: 991px) {
+@media (min-width:577px) and (max-width:767px){
     .botonBuscar {
         display: none;
     }
@@ -54,6 +65,100 @@
     .formularioSmart {
         width: 95%;
 
+    }
+
+
+    .textoHogar {
+        font-size:smaller;
+        margin-left: 25%;
+    }
+
+    .textoDecoracion {
+        font-size: smaller;
+        margin-left: 10%;
+    }
+
+    .textoAccesorios {
+        font-size: smaller;
+        margin-left: 10%;
+    }
+
+    .textoMascotas {
+        font-size: smaller;
+        margin-left: 20%;
+    }
+
+    .textoCocina {
+        font-size: smaller;
+        margin-left: 20%;
+
+    }
+
+    .textoElectro {
+        font-size: smaller;
+    }
+
+
+    .produTablet {
+        width: 13rem;
+        margin: 5%;
+    }
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .botonBuscar {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-start;
+        margin-left: 30%;
+    }
+
+    .formularioSmart {
+        width: 95%;
+
+    }
+
+    .textoHogar{
+        font-size: smaller;
+        margin-left: 25%;
+    }
+    
+    .textoDecoracion{
+        font-size: smaller;
+        margin-left: 10%;
+    }
+
+    .textoAccesorios{
+        font-size: smaller;
+        margin-left: 10%;
+    }
+
+    .textoMascotas{
+        font-size: smaller;
+        margin-left: 20%;
+    }
+
+    .textoCocina{
+        font-size: smaller;
+        margin-left: 20%;
+        
+    }
+
+    .textoElectro{
+        font-size: smaller;
+    }
+    
+    
+    .produTablet {
+        width: 13rem;
+        margin: 5%;
     }
 }
 

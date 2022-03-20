@@ -24,15 +24,6 @@
     font-weight: bold;
 }
 
-.textoHogar {
-    margin-left: 1.7rem;
-
-}
-
-.textoCocina{
-    margin-left: 1.4rem;
-}
-
 .tituloProductos {
     display: flex;
     background-color: $rosita;
@@ -44,3 +35,20 @@
     font-weight: bold;
     
 }
+
+a{
+    text-decoration: none;
+    color:$negro;
+}
+.textoHogar {
+    margin-left: 1.7rem;
+
+
+
+}
+
+.textoCocina{
+    margin-left: 1.4rem;
+
+}
+
