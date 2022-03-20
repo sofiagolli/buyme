@@ -244,12 +244,12 @@ a {
     margin-bottom: 5%;
   }
 
-  .btnComprame {
-    padding-left: 33%;
-  }
-
   .carSmart {
     height: 17vh;
+  }
+
+  .borderBox {
+    display: none;
   }
 }
 @media (min-width: 577px) and (max-width: 767px) {
